@@ -372,7 +372,6 @@ async def info(bot: Client, update: Message):
     
     text = (
         f"╭────────────────╮\n"
-        f"│✨ **__Your Telegram Info__**✨ \n"
         f"├────────────────\n"
         f"├🔹**Name :** `{update.from_user.first_name} {update.from_user.last_name if update.from_user.last_name else 'None'}`\n"
         f"├🔹**User ID :** @{update.from_user.username}\n"
